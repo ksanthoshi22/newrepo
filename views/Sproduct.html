@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RKFASHIONS</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="../Styles/Style.css">
+</head>
+<body>
+    <section id = "header">
+        <a href ="#"><img src= "../Images/logo.png" width="100px"> </a>
+        <div>
+            <ul id ="navbar">
+              <li><a href="index.html">Home</a></li> 
+              <li><a class="active" href="products.html">Products</a></li>  
+              <li><a href="contact.html">Contact</a></li>  
+              <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>   
+            </ul>
+        </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../Images/IMG_3081.jpg" width="100%" id="MainImg" alt="">
+       
+        <div class="small-img-group">
+            <div class="small-img-col">
+            <img src="../Images/IMG_3081.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+            <img src="../Images/IMG_3082.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+            <img src="../Images/IMG_3076.jpg" width="100%" class="small-img" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home/Beads</h6>
+            <h4 >Pearls set</h4>
+            <h2>$60</h2>
+            <select>
+                <option>Select Type</option>
+                <option>Choker</option>
+                <option>Long Set</option>
+                <option>Necklace</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Pearls are organic gemstones that are formed inside certain species of oysters and mussels.
+                 They are prized for their lustrous appearance and come in various shapes, sizes, and colors. 
+                 Pearls are often used in jewelry, adding elegance and sophistication to any outfit.</span>
+        </div>
+
+    </section>
+    
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../Images/logo.png"  alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Morgans Secret Dr,Cypress,TX,77433</p>
+            <p><strong>Phone:</strong> (409)291-9013</p>
+            <p><strong>Hours:</strong> 10AM to 4PM , Monday to Saturday</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class ="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href = "#">About us</a>
+            <a href = "#">Delivery Information</a>
+            <a href = "#">Privacy Policy</a>
+            <a href = "#">Terms & Conditions</a>
+            <a href = "#">Contct us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href = "#">Account</a>
+            <a href = "#">Sign In</a>
+            <a href = "#">View Cart</a>
+            <a href = "#">Track My Order</a>
+            <a href = "#">Help</a>
+        </div>
+
+    </footer>
+    <!-- <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+        smallImg[0].onclick = function(){
+            MainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            MainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            MainImg.src = smallImg[2].src;
+        }
+    </script> -->
+
+   <script src="../JS/Script.js"></script> 
+</body>
+</html>

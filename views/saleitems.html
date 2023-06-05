@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/Style.css">
+    <style>
+        body {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    margin-top: 25px;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(55, 187, 93);
+}
+#table {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(67, 180, 91);
+   
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+    </style>
+</head>
+<body>
+    <section id = "header">
+        <a href ="#"><img src= "../Images/logo.png" width="100px"> </a>
+        <div>
+            <ul id ="navbar">
+              <li><a class="active" href="index.html">Home</a></li> 
+              <li><a href="products.html">Products</a></li>  
+              <li><a href="contact.html">Contact</a></li>  
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>   
+            </ul>
+        </div>
+    </section>
+    
+    <div>
+        <button>Click to See Sale Items and Prices</button>
+        <div id="table"></div>
+    </div>
+    <script src="../JS/saleitems.js"></script>
+</body>
+</html>

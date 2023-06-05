@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email validation</title>
+	<script type="text/javascript">
+		function email_funnction() {
+			var email = document.emailform.email.value;
+			if(email.indexOf('@')<=0){
+				document.getElementById('errormsg').innerHTML="Invalid your Email Address";
+				return false;
+			}     
+			if ((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')) {
+				document.getElementById('errormsg').innerHTML="Invalid your Email Address";
+				return false;
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<h1>Email Validation in javascript</h1>
+	<span id="errormsg"></span>
+<form name="emailform" onsubmit="return email_funnction()">
+	
+	<label>Email</label>
+	<input type="text" name="email" value="">
+	<input type="submit" name="" value="Submit">
+</form>
+</body>
+</html>
